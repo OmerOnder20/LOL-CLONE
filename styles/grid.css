@@ -1,0 +1,114 @@
+.news-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38vh;
+    padding: 0 60px;
+    gap: 60px;
+}
+
+.news-grid>div {
+    flex: 1;
+}
+
+.news-container {
+    width: 27.5%;
+    height: 200px;
+}
+
+.news-content {
+    padding-top: 10px;
+    display: flex;
+}
+
+.news-image-div {
+    padding-right: 10px;
+}
+
+.news-image {
+    height: 180px;
+    width: 143px;
+    object-fit: cover;
+}
+
+.news-text-div {
+    padding-right: 10px;
+}
+
+.news-title {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    color: rgb(188, 188, 188);
+    font-weight: 600;
+    text-align: start;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.news-description {
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #7E7E7E;
+    font-weight: 600;
+    text-align: start;
+    line-height: normal;
+    letter-spacing: 0.54px;
+}
+
+.news-knowledges {
+    padding-top: 8px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(26, 29, 33);
+    font-weight: 400;
+    text-align: start;
+    line-height: 13px;
+    letter-spacing: 0.6px;
+}
+
+.grid-frame {
+    position: relative;
+    height: 200px;
+    width: 390px;
+    margin-top: -190px;
+    margin-left: 9px;
+    border-style: solid;
+    border-color: rgb(194, 193, 193);
+    border-width: 1px;
+    display: flex;
+    z-index: 10;
+}
+
+.view-all-div {
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    margin-top: -25px;
+    width: 85px;
+    margin-right: 60px;
+    height: 15.4px;
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+}
+.view-text {
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.44px;
+}
+
+.right-arrow {
+    margin-top: -7px;
+    text-align: center;
+    cursor: pointer;
+    fill: rgb(11, 198, 227);
+}

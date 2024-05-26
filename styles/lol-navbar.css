@@ -1,0 +1,133 @@
+.riot-fist-arrow-logo {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.riot-fist-arrow-logo svg:hover {
+    fill: red;
+}
+
+.riot-fist-svg {
+    margin-right: 0;
+    fill: rgb(249, 249, 249);
+}
+
+
+.riot-arrow-down-svg {
+    fill: #7E7E7E;
+}
+
+.riot-fist-svg:hover {
+    color: red;
+}
+
+.riot-arrow-down-logo:hover {
+    color: red;
+}
+
+.riot-gold-svg {
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.riot-hero-image {
+    height: 500px;
+    width: 1315px;
+    object-fit: cover
+}
+
+.navbar {
+    height: 80px;
+    border-bottom: 2px solid rgba(51, 51, 51, .25);
+}
+
+.navbar-dark {
+    background-color: rgb(17, 17, 17);
+}
+
+.tab-text-container {
+    height: 30px;
+    margin-top: -4px;
+    margin-right: -12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 1px;
+    border-radius: 6.4px;
+}
+
+.tab-text-container:hover {
+    background-color: rgba(128, 128, 128, .3);
+    cursor: pointer;
+}
+
+.tab-text-item {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(249, 249, 249);
+    font-weight: 600;
+    text-align: center;
+    line-height: 15px;
+    height: 15px;
+    letter-spacing: 1.04px;
+}
+
+.play-button {
+    margin-right: 32px;
+    margin-left: 12px;
+    margin-top: -4px;
+    padding: 8px 16px;
+    background-color: rgb(11, 196, 226);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(17, 17, 17);
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.04px;
+    border: none;
+    border-radius: 12px;
+    line-height: 16px;
+}
+
+.play-button:hover {
+    background-color: rgb(8, 184, 211);
+}
+
+.sign-in-button {
+    margin-top: -4px;
+    margin-left: 6px;
+    padding: 8px 16px;
+    background-color: rgba(128, 128, 128, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(249, 249, 249);
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.04px;
+    line-height: 15.6px;
+    border: none;
+    border-radius: 6.4px;
+}
+
+.riot-locale-logo {
+    margin-top: -4px;
+    padding-top: 2px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6.4px;
+    text-align: center;
+}
+
+.riot-locale-logo:hover {
+    background-color: rgba(128, 128, 128, .3);
+}
+
+.riot-search-logo {
+    background-color: #2b2a29;
+    height: 44px;
+    width: 45px;
+    padding-top: 9px;
+    text-align: center;
+    border-radius: 25.6px;
+}
+

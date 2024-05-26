@@ -1,0 +1,100 @@
+.lol-video-blur {
+    height: 580px;
+    width: 100%;
+}
+
+#background-video-blur {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    position: relative;
+    filter: blur(7px);
+    z-index: -100;
+}
+
+.lol-catalog-container {
+    height: 500px;
+    max-width: 1320px;
+    width: 100%;
+    margin-right: 60px;
+    margin-left: 60px;
+    position: relative;
+    margin-top: -440px;
+    display: flex;
+    z-index: -10;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#background-video {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    position: relative;
+    z-index: -10;
+}
+
+.lol-video-frame {
+    height: 520px;
+    width: 1300px;
+    position: relative;
+    margin-top: -510px;
+    margin-right: 50px;
+    margin-left: 70px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    z-index: 10;
+}
+
+.lol-logo-container {
+    position: absolute;
+    margin-top: 88px;
+    display: flex;
+}
+
+.lol-logo {
+    height: 253px;
+    width: 100%;
+    max-width: 574px;
+    object-fit: cover;
+}
+
+.free-button-container {
+    position: absolute;
+    height: 56px;
+    width: 195px;
+    margin-top: 360px;
+}
+
+.play-for-free-button {
+    height: inherit;
+    width: inherit;
+    background-color: rgb(11, 198, 227);
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(1, 1, 1);
+    font-weight: 700;
+    letter-spacing: 0.80px;
+    word-spacing: 2.5px;
+    text-align: center;
+    border: none;
+}
+
+.play-for-free-button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.free-button-frame {
+    position: relative;
+    height: 56px;
+    width: 194px;
+    margin-top: -61px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: rgb(194, 193, 193);
+    border-width: 1px;
+    display: flex;
+    z-index: 10;
+}
